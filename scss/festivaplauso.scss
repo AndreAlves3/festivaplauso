@@ -2,18 +2,42 @@
 @import "_breakpoints.scss";
 
 @each $breakpoint in map-keys($grid-breakpoints) {
-  @include media-breakpoint-up($breakpoint) {
-    $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+  $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
 
+  @include media-breakpoint-up($breakpoint) {
     .text#{$infix}-left   { text-align: left !important; }
     .text#{$infix}-right  { text-align: right !important; }
     .text#{$infix}-center { text-align: center !important; }
+  }
 
+  @include media-breakpoint-only($breakpoint) {
     .list-unstyled#{infix} { list-style: none; }
   }
 }
 
 .festivaplauso-header {
     margin-top: 70px;
+}
+
+#about {
+  .counter {
+    .counter-heading {
+      .subheading {
+        font-size: 4em;
+      }
+    }
+
+    .counter-body {
+      p {
+        font-size: 1.5em;
+      }
+    }
+  }
+}
+
+#tour {
+  .section-heading {
+    margin-bottom: 30px;
+  }
 }
 
