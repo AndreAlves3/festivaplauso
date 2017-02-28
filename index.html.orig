@@ -1,0 +1,765 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Festivaplauso</title>
+    <link rel="shortcut icon" href="img/favicon.ico">
+
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/custom.css" rel="stylesheet">
+    <link href="css/thumbnail-gallery.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+
+    <!-- Theme CSS -->
+    <link href="css/festivaplauso.min.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top affix">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">Festivaplauso</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#">Festivaplauso</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#portfolio">Serviços</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#tour">Tour 2017</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Contactos</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header class="festivaplauso-header">
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-lead-in"> Bem vindo a Festivaplauso!</div>
+                <div class="intro-heading"> Eventos e espetáculos </div>
+                <a href="#services" class="page-scroll btn btn-xl">Saber mais</a>
+            </div>
+        </div>
+    </header>
+
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Portfolio</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#fireworksModal" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/fogo.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Fogo de artifício</h4>
+                        <p class="text-muted">Iluminação</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#lightningModal" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/ilum.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Iluminação</h4>
+                        <p class="text-muted">Iluminação</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#artistsModal" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/joseMalhoa.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Grupos e artistas</h4>
+                        <p class="text-muted">Agenciamento</p>
+                    </div>
+                </div>
+                <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a href="#equipmentModal" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="img/portfolio/equip.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Equipamento</h4>
+                        <p class="text-muted">Aluguer</p>
+                    </div>
+                </div>
+<<<<<<< HEAD
+=======
+            </div>
+        </div>
+    </section>
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Experiência e qualidade ao seu serviço</h2>
+                </div>
+            </div>
+            <div class="row">
+
+                    <div class="col-sm-3 col-xs-12 text-center"> 
+                        <div class="timeline-heading">
+                            <h1 class="subheading">300+</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Grupos e Artistas
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-xs-12 text-center">
+                        <div class="timeline-heading">
+                            <h1 class="subheading">15</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Anos de Experiência
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-sm-3 col-xs-12 text-center">
+                        <div class="timeline-heading">
+                            <h1 class="subheading">1900+</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Festas e Romarias
+                            </p>
+                        </div>
+                    </div>
+                    <div class="col-sm-3 col-xs-12 text-center">
+                        <div class="timeline-heading">
+                            <h1 class="subheading">159</h4>
+                        </div>
+                        <div class="timeline-body">
+                            <p class="text-muted">
+                                Clientes
+                            </p>
+                        </div>
+                    </div>
+                </div>
+>>>>>>> ccd015ae59c5b25e23e514b644cc841e29c27c4e
+            </div>
+        </div>
+    </section>
+    <section id="tour" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Tour 2017</h2>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-6 col-xs-12 text-xs-center">
+                    <ul class="list-unstyled">
+                        <li>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading"> 10 de Fevereiro a 12 de Fevereiro</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Festas de S. Bento – V. N. de S. Bento – Serpa</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading"> 10 de Fevereiro a 12 de Fevereiro</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Festas de S. Bento – V. N. de S. Bento – Serpa</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading"> 10 de Fevereiro a 12 de Fevereiro</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Festas de S. Bento – V. N. de S. Bento – Serpa</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4 class="subheading"> 10 de Fevereiro a 12 de Fevereiro</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Festas de S. Bento – V. N. de S. Bento – Serpa</p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            
+                <div class="col-md-6 col-xs-12 text-xs-center">
+                        <ul class="list-unstyled">
+                            <li>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading"> 10 de Fevereiro a 12 de Fevereiro</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Festas de S. Bento – V. N. de S. Bento – Serpa</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading"> 10 de Fevereiro a 12 de Fevereiro</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Festas de S. Bento – V. N. de S. Bento – Serpa</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading"> 10 de Fevereiro a 12 de Fevereiro</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Festas de S. Bento – V. N. de S. Bento – Serpa</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-inverted">
+                                <div class="timeline-panel">
+                                    <div class="timeline-heading">
+                                        <h4 class="subheading"> 10 de Fevereiro a 12 de Fevereiro</h4>
+                                    </div>
+                                    <div class="timeline-body">
+                                        <p class="text-muted">Festas de S. Bento – V. N. de S. Bento – Serpa</p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Contacte-nos</h2>
+                    <h3 class="section-subheading">Para orcamentos e mais informações preecha o formulário seguinte</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <form name="sentMessage" id="contactForm" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" placeholder="Your Name *" id="name" required data-validation-required-message="Please enter your name.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" placeholder="Your Email *" id="email" required data-validation-required-message="Please enter your email address.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                                <div class="form-group">
+                                    <input type="tel" class="form-control" placeholder="Your Phone *" id="phone" required data-validation-required-message="Please enter your phone number.">
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div class="form-group">
+                                    <textarea class="form-control" placeholder="Your Message *" id="message" required data-validation-required-message="Please enter a message."></textarea>
+                                    <p class="help-block text-danger"></p>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                            <div class="col-lg-12 text-center">
+                                <div id="success"></div>
+                                <button type="submit" class="btn btn-xl">Enviar mensagem</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+<<<<<<< HEAD
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+=======
+>>>>>>> ccd015ae59c5b25e23e514b644cc841e29c27c4e
+            <div class="row">
+                &nbsp;
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Localização</h2>
+                    <h3 class="section-subheading">Para orcamentos e mais informações preecha o formulário seguinte</h3>
+                </div>
+            </div>
+        <div class="row">
+        <div class="container">
+                <script src='https://maps.googleapis.com/maps/api/js?v=3.exp'></script><div style='overflow:hidden;height:500px;width:1200px;'><div id='gmap_canvas' style='height:500px;width:1200px;'></div><div><small><a href="http://embedgooglemaps.com">embed google maps</a></small></div><div><small><a href="http://phplinkdir.com/">phplinkdir.com</a></small></div><style>#gmap_canvas img{max-width:none!important;background:none!important}</style></div><script type='text/javascript'>function init_map(){var myOptions = {zoom:10,center:new google.maps.LatLng(40.6405055,-8.65375389999997),mapTypeId: google.maps.MapTypeId.ROADMAP};map = new google.maps.Map(document.getElementById('gmap_canvas'), myOptions);marker = new google.maps.Marker({map: map,position: new google.maps.LatLng(40.6405055,-8.65375389999997)});infowindow = new google.maps.InfoWindow({content:'<strong>Festivaplauso Lda. </strong><br>Aveiro<br>'});google.maps.event.addListener(marker, 'click', function(){infowindow.open(map,marker);});infowindow.open(map,marker);}google.maps.event.addDomListener(window, 'load', init_map);</script>
+        </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <span class="copyright">Copyright &copy; Your Website 2016</span>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="#"><i class="fa fa-twitter"></i></a>
+                        </li>
+                        <li><a href="https://www.facebook.com/Festivaplauso-549026825214685/"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="#"><i class="fa fa-linkedin"></i></a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-md-4">
+                    <ul class="list-inline quicklinks">
+                        <li><a href="#">Privacy Policy</a>
+                        </li>
+                        <li><a href="#">Terms of Use</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="fireworksModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-header">
+                                <h2>Fogo de artifício</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <div class="row">
+                                <div class="col-lg-5 col-lg-offset-1">
+                                    <img class="img-responsive img-centered" src="img/portfolio/fogo.jpg" alt="">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>Comercio e montagem de fogos-de-artifício e pirotécnicos, para festas populares e romarias
+                                        ou para eventos privados como casamentos.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Fechar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="lightningModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-header">
+                                <h2>Iluminação</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <div class="row">
+                                <div class="col-lg-5 col-lg-offset-1">
+                                    <img class="img-responsive img-centered" src="img/portfolio/ilum.jpg" alt="Iluminação">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>Realizamos todo o tipo de iluminação decorativa, festiva e ornamental para espaços urbanos
+                                        públicos, centros comerciais, &nbsp;feiras, empresas, hospitais, escolas, hotéis,
+                                        exposições e outros locais e eventos, sejam eles no exterior ou interior, temos iluminação
+                                        a Led, decorações de natal,&nbsp;iluminação de natal, iluminação com design, etc…</p>
+                                    <p>Executamos e aplicamos pinheiros gigantes, enfeite e decorações de natal.</p>
+                                    <p>Trabalhamos para organismos públicos, entidades religiosas, grupos ou associações de
+                                        festas ou recrativas, bemo como para casamentos, decoração de igreja, hoteis, restaurantes,
+                                        espaços públicos, feiras, festas, bailes, exposições, congressos e eventos.</p>
+                                    <p>Contacte-nos para orçamento gratuito!</p>
+                                    <div class="row">
+
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/ilum/1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/ilum/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/ilum/3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/ilum/4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/ilum/5.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/ilum/6.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/ilum/7.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/ilum/8.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="artistsModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-header">
+                                <h2>Grupos e Artistas</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <div class="row">
+                                <div class="col-lg-5 col-lg-offset-1">
+                                    <img class="img-responsive img-centered" src="img/portfolio/joseMalhoa.jpg" alt="Artistas">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>Agenciamento de grupos e artistas para festas e espetáculos. Trabalhámos com todos os
+                                        Grupos e Artistas.</p>
+                                    <p>Contacte-nos para mais informações.</p>
+                                    <div class="row">
+
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/artistas/1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/artistas/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/artistas/3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/artistas/4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/artistas/5.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/artistas/6.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/artistas/7.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/artistas/8.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="equipmentModal" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-header">
+                                <h2>Equipamento</h2>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <div class="modal-body">
+                            <!-- Project Details Go Here -->
+                            <div class="row">
+                                <div class="col-lg-5 col-lg-offset-1">
+                                    <img class="img-responsive img-centered" src="img/portfolio/equip.jpg" alt="Equipamentos">
+                                </div>
+                                <div class="col-lg-6">
+                                    <p>Aluguer e montagem de Palcos, Tendas (para expositores e tasquinhas), Geradores e Som
+                                        Ambientes para todo o tipo de eventos.</p>
+                                    <p>Contacte-nos para mais informações.</p>
+                                    <div class="row">
+
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/equip/1.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/equip/2.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/equip/3.jpg" alt="">
+                                            </a>
+                                        </div>
+                                        <div class="col-lg-3 col-md-4 col-xs-6 thumb">
+                                            <a class="thumbnail" href="#">
+                                                <img class="img-responsive" src="img/grid/equip/4.jpg" alt="">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Fechar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/escape-preview.png" alt="">
+                                <p>Escape is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>.
+                                    Escape is a one page web template that was designed with agencies in mind. This template
+                                    is ideal for those looking for a simple one page solution to describe your business and
+                                    offer your services.</p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/escape-one-page-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 6 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Project Name</h2>
+                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
+                                <img class="img-responsive img-centered" src="img/portfolio/dreams-preview.png" alt="">
+                                <p>Dreams is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>.
+                                    Dreams is a modern one page web template designed for almost any purpose. It’s a beautiful
+                                    template that’s designed with the Bootstrap framework in mind.
+                                </p>
+                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/dreams-free-one-page-web-template/">FreebiesXpress.com</a>.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb"
+        crossorigin="anonymous"></script>
+
+        <!-- Contact Form JavaScript -->
+        <script src="js/jqBootstrapValidation.js"></script>
+        <script src="js/contact_me.js"></script>
+
+        <!-- Theme JavaScript -->
+        <script src="js/agency.js"></script>
+
+</body>
+
+</html>
