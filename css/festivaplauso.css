@@ -1,5 +1,5 @@
 /*!
- * Start Bootstrap - Agency v1.0.0 (http://startbootstrap.com/template-overviews/agency)
+ * Start Bootstrap - Festivaplauso v1.0.0 (http://startbootstrap.com/template-overviews/agency)
  * Copyright 2013-2017 Start Bootstrap
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
  */
@@ -641,8 +641,9 @@ body {
 .text-center {
   text-align: center !important; }
 
-.list-unstyledinfix {
-  list-style: none; }
+@media (max-width: 575px) {
+  .list-unstyledinfix {
+    list-style: none; } }
 
 @media (min-width: 576px) {
   .text-sm-left {
@@ -650,7 +651,9 @@ body {
   .text-sm-right {
     text-align: right !important; }
   .text-sm-center {
-    text-align: center !important; }
+    text-align: center !important; } }
+
+@media (min-width: 576px) and (max-width: 767px) {
   .list-unstyledinfix {
     list-style: none; } }
 
@@ -660,7 +663,9 @@ body {
   .text-md-right {
     text-align: right !important; }
   .text-md-center {
-    text-align: center !important; }
+    text-align: center !important; } }
+
+@media (min-width: 768px) and (max-width: 991px) {
   .list-unstyledinfix {
     list-style: none; } }
 
@@ -670,7 +675,9 @@ body {
   .text-lg-right {
     text-align: right !important; }
   .text-lg-center {
-    text-align: center !important; }
+    text-align: center !important; } }
+
+@media (min-width: 992px) and (max-width: 1199px) {
   .list-unstyledinfix {
     list-style: none; } }
 
@@ -680,9 +687,20 @@ body {
   .text-xl-right {
     text-align: right !important; }
   .text-xl-center {
-    text-align: center !important; }
+    text-align: center !important; } }
+
+@media (min-width: 1200px) {
   .list-unstyledinfix {
     list-style: none; } }
 
 .festivaplauso-header {
   margin-top: 70px; }
+
+#about .counter .counter-heading .subheading {
+  font-size: 4em; }
+
+#about .counter .counter-body p {
+  font-size: 1.5em; }
+
+#tour .section-heading {
+  margin-bottom: 30px; }
