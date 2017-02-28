@@ -1,3 +1,15 @@
 .festivaplauso-header {
     margin-top: 70px;
 }
+
+
+.section-subheading{
+	color: white
+}
+
+.timeline-heading h4.subheading:before {
+    content: "\e006";
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: 400;
+}
